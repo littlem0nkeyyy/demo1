@@ -1,0 +1,73 @@
+{
+  "vertical": "running_shoes",
+  "attributes": {
+    "support_category": {
+      "type": "enum",
+      "values": [
+        "neutral",
+        "stability",
+        "motion-control"
+      ]
+    },
+    "surface": {
+      "type": "enum",
+      "values": [
+        "road",
+        "trail",
+        "track",
+        "treadmill"
+      ]
+    },
+    "distance": {
+      "type": "enum",
+      "values": [
+        "short",
+        "mid",
+        "long-distance",
+        "ultra"
+      ]
+    },
+    "width": {
+      "type": "enum",
+      "values": [
+        "narrow",
+        "standard",
+        "wide",
+        "extra-wide"
+      ]
+    },
+    "cushioning": {
+      "type": "enum",
+      "values": [
+        "minimal",
+        "moderate",
+        "max"
+      ]
+    },
+    "weight_class": {
+      "type": "enum",
+      "values": [
+        "ultralight",
+        "lightweight",
+        "standard"
+      ]
+    },
+    "intended_use": {
+      "type": "enum",
+      "values": [
+        "daily-trainer",
+        "tempo",
+        "race-day",
+        "recovery"
+      ]
+    },
+    "water_resistance": {
+      "type": "enum",
+      "values": [
+        "none",
+        "splash-resistant",
+        "water-resistant"
+      ]
+    }
+  }
+}

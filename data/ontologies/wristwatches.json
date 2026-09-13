@@ -1,0 +1,75 @@
+{
+  "vertical": "wristwatches",
+  "attributes": {
+    "movement": {
+      "type": "enum",
+      "values": [
+        "quartz",
+        "automatic",
+        "solar-quartz"
+      ]
+    },
+    "case_size_mm": {
+      "type": "number",
+      "values": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ]
+    },
+    "case_material": {
+      "type": "enum",
+      "values": [
+        "stainless-steel",
+        "titanium",
+        "recycled-steel"
+      ]
+    },
+    "crystal": {
+      "type": "enum",
+      "values": [
+        "mineral",
+        "sapphire",
+        "hardened-mineral"
+      ]
+    },
+    "water_resistance_m": {
+      "type": "number",
+      "values": [
+        30,
+        50,
+        100,
+        200
+      ]
+    },
+    "strap_material": {
+      "type": "enum",
+      "values": [
+        "woven-nylon",
+        "leather",
+        "steel-mesh",
+        "rubber"
+      ]
+    },
+    "dial_style": {
+      "type": "enum",
+      "values": [
+        "minimal",
+        "field",
+        "sector",
+        "sunburst"
+      ]
+    },
+    "power_reserve_hours": {
+      "type": "number",
+      "values": [
+        0,
+        38,
+        42,
+        70
+      ]
+    }
+  }
+}

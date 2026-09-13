@@ -1,0 +1,71 @@
+{
+  "vertical": "water_bottles",
+  "attributes": {
+    "capacity_ml": {
+      "type": "number",
+      "values": [
+        500,
+        650,
+        750,
+        1000
+      ]
+    },
+    "insulation": {
+      "type": "enum",
+      "values": [
+        "single-wall",
+        "double-wall-12h",
+        "double-wall-24h"
+      ]
+    },
+    "material": {
+      "type": "enum",
+      "values": [
+        "stainless-steel",
+        "recycled-steel",
+        "copolyester"
+      ]
+    },
+    "lid_type": {
+      "type": "enum",
+      "values": [
+        "loop",
+        "straw",
+        "chug",
+        "twist"
+      ]
+    },
+    "leak_resistance": {
+      "type": "enum",
+      "values": [
+        "spill-resistant",
+        "leakproof"
+      ]
+    },
+    "dishwasher_safe": {
+      "type": "enum",
+      "values": [
+        "yes",
+        "lid-only",
+        "no"
+      ]
+    },
+    "mouth_width": {
+      "type": "enum",
+      "values": [
+        "narrow",
+        "standard",
+        "wide"
+      ]
+    },
+    "use_case": {
+      "type": "enum",
+      "values": [
+        "commute",
+        "gym",
+        "hiking",
+        "travel"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+machina.db
+machina.db-journal
+machina.db-wal
+machina.db-shm
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo
+dist/
+
+# Personal/local tool config — not needed by other clones. .claude/skills/ (the SKILL.md
+# symlink) is intentionally NOT ignored — it's what makes the skill usable after a clone.
+.claude/settings.local.json
+.claude/launch.json
+.codex/

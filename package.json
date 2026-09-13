@@ -1,0 +1,27 @@
+{
+  "name": "machina",
+  "version": "0.2.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "mcp/*"
+  ],
+  "scripts": {
+    "dev:dashboard": "npm run dev --workspace=apps/dashboard",
+    "db:init": "tsx -r dotenv/config packages/database/src/init.ts",
+    "db:seed": "tsx -r dotenv/config packages/database/src/seed.ts",
+    "freeze:heldout": "tsx -r dotenv/config packages/retrieval/src/freezeQuerySet.ts",
+    "mcp:server": "tsx -r dotenv/config mcp/server/src/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -b packages/schemas packages/database packages/core packages/retrieval mcp/server"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^5.0.0"
+  }
+}

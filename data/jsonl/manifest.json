@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "seed": "MACHINA_NINE_MERCHANTS_V1_2026",
+  "generated_at": "2026-09-13T00:00:00.000Z",
+  "merchant_count": 9,
+  "vertical_count": 9,
+  "canonical_product_count": 450,
+  "product_count": 450,
+  "product_family_count": 45,
+  "variant_count": 1350,
+  "merchant_offer_count": 1350,
+  "price_history_count": 2700,
+  "product_keyword_count": 4950,
+  "product_alias_count": 900,
+  "shipping_rule_count": 27,
+  "sync_log_count": 18,
+  "search_request_count": 9,
+  "search_result_count": 45,
+  "indexed_image_count": 1800,
+  "thumbnail_count": 450,
+  "total_image_file_count": 2250,
+  "review_count": 9000,
+  "review_aspect_count": 9000,
+  "evidence_document_count": 450,
+  "fact_count": 3600,
+  "approved_fact_count": 3270,
+  "visibility": {
+    "AGENT_VISIBLE": 2700,
+    "MATCHING_ONLY": 450,
+    "INTERNAL_ONLY": 450
+  }
+}

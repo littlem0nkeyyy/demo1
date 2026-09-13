@@ -1,0 +1,69 @@
+{
+  "vertical": "wireless_headphones",
+  "attributes": {
+    "form_factor": {
+      "type": "enum",
+      "values": [
+        "over-ear",
+        "on-ear"
+      ]
+    },
+    "connectivity": {
+      "type": "enum",
+      "values": [
+        "bluetooth-5.2",
+        "bluetooth-5.3",
+        "bluetooth-and-wired"
+      ]
+    },
+    "noise_control": {
+      "type": "enum",
+      "values": [
+        "passive",
+        "adaptive-anc",
+        "hybrid-anc"
+      ]
+    },
+    "battery_hours": {
+      "type": "number",
+      "values": [
+        24,
+        32,
+        40,
+        50
+      ]
+    },
+    "codec": {
+      "type": "enum",
+      "values": [
+        "AAC",
+        "aptX",
+        "LDAC"
+      ]
+    },
+    "microphone": {
+      "type": "enum",
+      "values": [
+        "single",
+        "dual-beam",
+        "array"
+      ]
+    },
+    "charging": {
+      "type": "enum",
+      "values": [
+        "USB-C",
+        "USB-C-fast",
+        "USB-C-and-wireless"
+      ]
+    },
+    "water_resistance": {
+      "type": "enum",
+      "values": [
+        "none",
+        "IPX4",
+        "IPX5"
+      ]
+    }
+  }
+}

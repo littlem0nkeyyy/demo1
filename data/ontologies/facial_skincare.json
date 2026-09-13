@@ -1,0 +1,72 @@
+{
+  "vertical": "facial_skincare",
+  "attributes": {
+    "product_type": {
+      "type": "enum",
+      "values": [
+        "serum",
+        "facial-oil",
+        "essence"
+      ]
+    },
+    "skin_type": {
+      "type": "enum",
+      "values": [
+        "dry",
+        "oily",
+        "combination",
+        "sensitive",
+        "all"
+      ]
+    },
+    "concern": {
+      "type": "enum",
+      "values": [
+        "hydration",
+        "barrier",
+        "texture",
+        "brightness"
+      ]
+    },
+    "key_ingredient": {
+      "type": "enum",
+      "values": [
+        "niacinamide",
+        "squalane",
+        "peptides",
+        "hyaluronic-acid"
+      ]
+    },
+    "fragrance": {
+      "type": "enum",
+      "values": [
+        "fragrance-free",
+        "light-botanical"
+      ]
+    },
+    "texture": {
+      "type": "enum",
+      "values": [
+        "water-light",
+        "gel",
+        "silky-oil"
+      ]
+    },
+    "volume_ml": {
+      "type": "number",
+      "values": [
+        15,
+        30,
+        50
+      ]
+    },
+    "routine_step": {
+      "type": "enum",
+      "values": [
+        "after-cleanse",
+        "before-moisturiser",
+        "final-step"
+      ]
+    }
+  }
+}

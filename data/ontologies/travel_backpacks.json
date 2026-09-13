@@ -1,0 +1,73 @@
+{
+  "vertical": "travel_backpacks",
+  "attributes": {
+    "capacity_litres": {
+      "type": "number",
+      "values": [
+        20,
+        24,
+        28,
+        32,
+        36
+      ]
+    },
+    "carry_type": {
+      "type": "enum",
+      "values": [
+        "daypack",
+        "commuter",
+        "carry-on",
+        "hiking"
+      ]
+    },
+    "laptop_size": {
+      "type": "enum",
+      "values": [
+        "13-inch",
+        "14-inch",
+        "16-inch"
+      ]
+    },
+    "material": {
+      "type": "enum",
+      "values": [
+        "recycled-nylon",
+        "waxed-canvas",
+        "ripstop",
+        "woven-polyester"
+      ]
+    },
+    "water_resistance": {
+      "type": "enum",
+      "values": [
+        "splash-resistant",
+        "water-resistant",
+        "weatherproof"
+      ]
+    },
+    "trip_length": {
+      "type": "enum",
+      "values": [
+        "day",
+        "weekend",
+        "three-to-five-days"
+      ]
+    },
+    "opening_style": {
+      "type": "enum",
+      "values": [
+        "panel",
+        "clamshell",
+        "roll-top"
+      ]
+    },
+    "weight_class": {
+      "type": "enum",
+      "values": [
+        "lightweight",
+        "standard",
+        "heavy-duty"
+      ]
+    }
+  }
+}

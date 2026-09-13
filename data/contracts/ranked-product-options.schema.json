@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/ranked-product-options.schema.json",
+  "title": "Machina Ranked Product Options",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["query", "intent", "options"],
+  "properties": {
+    "query": { "type": "string" },
+    "intent": { "$ref": "purchase-intent.schema.json" },
+    "options": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["product_id", "canonical_product_id", "merchant_id", "merchant_name", "title", "price", "availability", "shipping", "match_score", "matched_keywords", "matched_attributes", "unknown_attributes", "reasons", "product_url"],
+        "properties": {
+          "product_id": { "type": "string" },
+          "canonical_product_id": { "type": "string" },
+          "merchant_id": { "type": "string" },
+          "merchant_name": { "type": "string" },
+          "title": { "type": "string" },
+          "price": { "type": "object", "required": ["amount", "currency"], "properties": { "amount": { "type": "number" }, "currency": { "type": "string" } } },
+          "availability": { "enum": ["in_stock", "out_of_stock", "preorder", "discontinued", "unknown"] },
+          "shipping": { "type": "object" },
+          "match_score": { "type": "number", "minimum": 0, "maximum": 1 },
+          "matched_keywords": { "type": "array", "items": { "type": "string" } },
+          "matched_attributes": { "type": "object" },
+          "unknown_attributes": { "type": "array", "items": { "type": "string" } },
+          "reasons": { "type": "array", "items": { "type": "string" } },
+          "product_url": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "vertical": "coffee_makers",
+  "attributes": {
+    "brew_method": {
+      "type": "enum",
+      "values": [
+        "drip",
+        "pour-over-assist",
+        "pulse-drip"
+      ]
+    },
+    "capacity_cups": {
+      "type": "number",
+      "values": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    "carafe": {
+      "type": "enum",
+      "values": [
+        "glass",
+        "thermal-steel"
+      ]
+    },
+    "programmable": {
+      "type": "enum",
+      "values": [
+        "manual",
+        "timer",
+        "smart-schedule"
+      ]
+    },
+    "filter_type": {
+      "type": "enum",
+      "values": [
+        "paper",
+        "permanent-mesh",
+        "dual-compatible"
+      ]
+    },
+    "keep_warm_minutes": {
+      "type": "number",
+      "values": [
+        0,
+        30,
+        60,
+        90
+      ]
+    },
+    "power_watts": {
+      "type": "number",
+      "values": [
+        900,
+        1100,
+        1300
+      ]
+    },
+    "finish": {
+      "type": "enum",
+      "values": [
+        "matte",
+        "brushed-metal",
+        "soft-touch"
+      ]
+    }
+  }
+}

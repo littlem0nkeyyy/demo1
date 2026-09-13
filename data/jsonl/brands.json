@@ -1,0 +1,68 @@
+[
+  {
+    "id": "M01-BR01",
+    "merchant_id": "M01",
+    "name": "Velora",
+    "description": "A wholly fictional running shoes brand created for Machina testing."
+  },
+  {
+    "id": "M02-BR01",
+    "merchant_id": "M02",
+    "name": "Northpine",
+    "description": "A wholly fictional travel backpacks brand created for Machina testing."
+  },
+  {
+    "id": "M03-BR01",
+    "merchant_id": "M03",
+    "name": "Sonora",
+    "description": "A wholly fictional wireless headphones brand created for Machina testing."
+  },
+  {
+    "id": "M04-BR01",
+    "merchant_id": "M04",
+    "name": "Emberline",
+    "description": "A wholly fictional coffee makers brand created for Machina testing."
+  },
+  {
+    "id": "M05-BR01",
+    "merchant_id": "M05",
+    "name": "LumaDerm",
+    "description": "A wholly fictional facial skincare brand created for Machina testing."
+  },
+  {
+    "id": "M06-BR01",
+    "merchant_id": "M06",
+    "name": "Aster",
+    "description": "A wholly fictional desk lamps brand created for Machina testing."
+  },
+  {
+    "id": "M07-BR01",
+    "merchant_id": "M07",
+    "name": "Tidecraft",
+    "description": "A wholly fictional water bottles brand created for Machina testing."
+  },
+  {
+    "id": "M08-BR01",
+    "merchant_id": "M08",
+    "name": "Stillform",
+    "description": "A wholly fictional yoga mats brand created for Machina testing."
+  },
+  {
+    "id": "M09-BR01",
+    "merchant_id": "M09",
+    "name": "Meridian",
+    "description": "A wholly fictional wristwatches brand created for Machina testing."
+  },
+  {
+    "id": "M10-BR01",
+    "merchant_id": "M10",
+    "name": "Ridgemark",
+    "description": "A wholly fictional running shoes brand created for Machina testing."
+  },
+  {
+    "id": "M11-BR01",
+    "merchant_id": "M11",
+    "name": "Solace",
+    "description": "A wholly fictional running shoes brand created for Machina testing."
+  }
+]

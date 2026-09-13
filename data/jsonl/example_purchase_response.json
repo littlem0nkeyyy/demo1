@@ -1,0 +1,222 @@
+{
+  "query": "Find an in-stock running shoe with neutral and track under 209 AUD that ships to Australia.",
+  "intent": {
+    "category": "running_shoes",
+    "keywords": [
+      "neutral",
+      "track"
+    ],
+    "attributes": {
+      "support_category": "neutral",
+      "surface": "track"
+    },
+    "constraints": {
+      "budget_min": null,
+      "budget_max": 209,
+      "currency": "AUD",
+      "availability": "in_stock",
+      "shipping_country": "AU"
+    },
+    "clarification_needed": []
+  },
+  "options": [
+    {
+      "product_id": "M01-P0037",
+      "canonical_product_id": "CP-M01-P0037",
+      "merchant_id": "M01",
+      "merchant_name": "Velora Runworks",
+      "title": "Velora Guide Ion 37",
+      "price": {
+        "amount": 190.2,
+        "currency": "AUD"
+      },
+      "availability": "in_stock",
+      "shipping": {
+        "available": true,
+        "countries": [
+          "AU",
+          "NZ",
+          "VN"
+        ],
+        "fee": 9.95,
+        "estimated_days_min": 2,
+        "estimated_days_max": 5
+      },
+      "match_score": 0.968,
+      "matched_keywords": [
+        "support_category:neutral",
+        "surface:track"
+      ],
+      "matched_attributes": {
+        "support_category": "neutral",
+        "surface": "track"
+      },
+      "unknown_attributes": [],
+      "reasons": [
+        "Matches running shoes",
+        "support category matches neutral",
+        "surface matches track",
+        "Current price is within the synthetic budget",
+        "Current offer ships to AU"
+      ],
+      "product_url": "https://example.invalid/m01/products/m01-p0037"
+    },
+    {
+      "product_id": "M01-P0013",
+      "canonical_product_id": "CP-M01-P0013",
+      "merchant_id": "M01",
+      "merchant_name": "Velora Runworks",
+      "title": "Velora Ridge Crest 13",
+      "price": {
+        "amount": 149.4,
+        "currency": "AUD"
+      },
+      "availability": "in_stock",
+      "shipping": {
+        "available": true,
+        "countries": [
+          "AU",
+          "NZ",
+          "VN"
+        ],
+        "fee": 9.95,
+        "estimated_days_min": 2,
+        "estimated_days_max": 5
+      },
+      "match_score": 0.966,
+      "matched_keywords": [
+        "support_category:neutral",
+        "surface:track"
+      ],
+      "matched_attributes": {
+        "support_category": "neutral",
+        "surface": "track"
+      },
+      "unknown_attributes": [],
+      "reasons": [
+        "Matches running shoes",
+        "support category matches neutral",
+        "surface matches track",
+        "Current price is within the synthetic budget",
+        "Current offer ships to AU"
+      ],
+      "product_url": "https://example.invalid/m01/products/m01-p0013"
+    },
+    {
+      "product_id": "M01-P0025",
+      "canonical_product_id": "CP-M01-P0025",
+      "merchant_id": "M01",
+      "merchant_name": "Velora Runworks",
+      "title": "Velora Velocity Flux 25",
+      "price": {
+        "amount": 169.8,
+        "currency": "AUD"
+      },
+      "availability": "in_stock",
+      "shipping": {
+        "available": true,
+        "countries": [
+          "AU",
+          "NZ",
+          "VN"
+        ],
+        "fee": 9.95,
+        "estimated_days_min": 2,
+        "estimated_days_max": 5
+      },
+      "match_score": 0.966,
+      "matched_keywords": [
+        "support_category:neutral",
+        "surface:track"
+      ],
+      "matched_attributes": {
+        "support_category": "neutral",
+        "surface": "track"
+      },
+      "unknown_attributes": [],
+      "reasons": [
+        "Matches running shoes",
+        "support category matches neutral",
+        "surface matches track",
+        "Current price is within the synthetic budget",
+        "Current offer ships to AU"
+      ],
+      "product_url": "https://example.invalid/m01/products/m01-p0025"
+    },
+    {
+      "product_id": "M01-P0004",
+      "canonical_product_id": "CP-M01-P0004",
+      "merchant_id": "M01",
+      "merchant_name": "Velora Runworks",
+      "title": "Velora Flow Echo 4",
+      "price": {
+        "amount": 134.1,
+        "currency": "AUD"
+      },
+      "availability": "in_stock",
+      "shipping": {
+        "available": true,
+        "countries": [
+          "AU",
+          "NZ",
+          "VN"
+        ],
+        "fee": 9.95,
+        "estimated_days_min": 2,
+        "estimated_days_max": 5
+      },
+      "match_score": 0.846,
+      "matched_keywords": [
+        "support_category:neutral"
+      ],
+      "matched_attributes": {
+        "support_category": "neutral"
+      },
+      "unknown_attributes": [],
+      "reasons": [
+        "Matches running shoes",
+        "support category matches neutral",
+        "Current price is within the synthetic budget",
+        "Current offer ships to AU"
+      ],
+      "product_url": "https://example.invalid/m01/products/m01-p0004"
+    },
+    {
+      "product_id": "M01-P0005",
+      "canonical_product_id": "CP-M01-P0005",
+      "merchant_id": "M01",
+      "merchant_name": "Velora Runworks",
+      "title": "Velora Flow Flux 5",
+      "price": {
+        "amount": 135.8,
+        "currency": "AUD"
+      },
+      "availability": "in_stock",
+      "shipping": {
+        "available": true,
+        "countries": [
+          "AU",
+          "NZ"
+        ],
+        "fee": 9.95,
+        "estimated_days_min": 2,
+        "estimated_days_max": 5
+      },
+      "match_score": 0.846,
+      "matched_keywords": [
+        "surface:track"
+      ],
+      "matched_attributes": {
+        "surface": "track"
+      },
+      "unknown_attributes": [],
+      "reasons": [
+        "Matches running shoes",
+        "surface matches track",
+        "Current price is within the synthetic budget",
+        "Current offer ships to AU"
+      ],
+      "product_url": "https://example.invalid/m01/products/m01-p0005"
+    }
+  ]
+}

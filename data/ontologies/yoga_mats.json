@@ -1,0 +1,72 @@
+{
+  "vertical": "yoga_mats",
+  "attributes": {
+    "thickness_mm": {
+      "type": "number",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "material": {
+      "type": "enum",
+      "values": [
+        "natural-rubber",
+        "TPE",
+        "cork-rubber",
+        "recycled-PU"
+      ]
+    },
+    "grip_level": {
+      "type": "enum",
+      "values": [
+        "moderate",
+        "high",
+        "wet-grip"
+      ]
+    },
+    "length_cm": {
+      "type": "number",
+      "values": [
+        173,
+        180,
+        185
+      ]
+    },
+    "width_cm": {
+      "type": "number",
+      "values": [
+        61,
+        66,
+        70
+      ]
+    },
+    "weight_class": {
+      "type": "enum",
+      "values": [
+        "travel",
+        "standard",
+        "studio"
+      ]
+    },
+    "practice_type": {
+      "type": "enum",
+      "values": [
+        "hatha",
+        "vinyasa",
+        "hot-yoga",
+        "restorative"
+      ]
+    },
+    "latex_free": {
+      "type": "enum",
+      "values": [
+        "yes",
+        "no"
+      ]
+    }
+  }
+}

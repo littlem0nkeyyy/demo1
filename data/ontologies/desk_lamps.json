@@ -1,0 +1,69 @@
+{
+  "vertical": "desk_lamps",
+  "attributes": {
+    "light_source": {
+      "type": "enum",
+      "values": [
+        "integrated-LED",
+        "replaceable-LED"
+      ]
+    },
+    "colour_temperature": {
+      "type": "enum",
+      "values": [
+        "2700K",
+        "3500K",
+        "4000K",
+        "5000K"
+      ]
+    },
+    "brightness_levels": {
+      "type": "number",
+      "values": [
+        3,
+        5,
+        7
+      ]
+    },
+    "control_type": {
+      "type": "enum",
+      "values": [
+        "touch",
+        "dial",
+        "button"
+      ]
+    },
+    "adjustability": {
+      "type": "enum",
+      "values": [
+        "single-hinge",
+        "double-hinge",
+        "full-articulation"
+      ]
+    },
+    "power_source": {
+      "type": "enum",
+      "values": [
+        "USB-C",
+        "mains",
+        "rechargeable"
+      ]
+    },
+    "material": {
+      "type": "enum",
+      "values": [
+        "aluminium",
+        "steel",
+        "recycled-polymer"
+      ]
+    },
+    "footprint": {
+      "type": "enum",
+      "values": [
+        "compact",
+        "standard",
+        "wide-base"
+      ]
+    }
+  }
+}

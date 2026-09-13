@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/purchase-intent.schema.json",
+  "title": "Machina PurchaseIntent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["category", "keywords", "attributes", "constraints", "clarification_needed"],
+  "properties": {
+    "category": { "type": ["string", "null"] },
+    "keywords": { "type": "array", "items": { "type": "string" } },
+    "attributes": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [
+          { "type": "string" },
+          { "type": "number" },
+          { "type": "array", "items": { "type": ["string", "number"] } },
+          { "type": "null" }
+        ]
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["budget_min", "budget_max", "currency", "availability", "shipping_country"],
+      "properties": {
+        "budget_min": { "type": ["number", "null"] },
+        "budget_max": { "type": ["number", "null"] },
+        "currency": { "type": ["string", "null"] },
+        "availability": { "type": ["string", "null"] },
+        "shipping_country": { "type": ["string", "null"] }
+      }
+    },
+    "clarification_needed": { "type": "array", "items": { "type": "string" } }
+  }
+}

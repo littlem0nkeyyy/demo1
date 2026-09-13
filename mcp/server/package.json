@@ -1,0 +1,14 @@
+{
+  "name": "@machina/mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "dependencies": {
+    "@machina/core": "*",
+    "@machina/database": "*",
+    "@machina/schemas": "*",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^16.4.5",
+    "zod": "^4.6.2"
+  }
+}

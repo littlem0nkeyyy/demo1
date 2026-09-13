@@ -1,0 +1,162 @@
+[
+  {
+    "id": "M01-CAT-ROOT",
+    "merchant_id": "M01",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m01-catalogue",
+    "description": "Synthetic catalogue for Velora Runworks."
+  },
+  {
+    "id": "M01-CAT-RUNNING_SHOES",
+    "merchant_id": "M01",
+    "parent_id": "M01-CAT-ROOT",
+    "name": "running shoes",
+    "slug": "m01-running-shoes",
+    "description": "Fictional running shoes products."
+  },
+  {
+    "id": "M02-CAT-ROOT",
+    "merchant_id": "M02",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m02-catalogue",
+    "description": "Synthetic catalogue for Northpine Carry."
+  },
+  {
+    "id": "M02-CAT-TRAVEL_BACKPACKS",
+    "merchant_id": "M02",
+    "parent_id": "M02-CAT-ROOT",
+    "name": "travel backpacks",
+    "slug": "m02-travel-backpacks",
+    "description": "Fictional travel backpacks products."
+  },
+  {
+    "id": "M03-CAT-ROOT",
+    "merchant_id": "M03",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m03-catalogue",
+    "description": "Synthetic catalogue for Sonora Audio Lab."
+  },
+  {
+    "id": "M03-CAT-WIRELESS_HEADPHONES",
+    "merchant_id": "M03",
+    "parent_id": "M03-CAT-ROOT",
+    "name": "wireless headphones",
+    "slug": "m03-wireless-headphones",
+    "description": "Fictional wireless headphones products."
+  },
+  {
+    "id": "M04-CAT-ROOT",
+    "merchant_id": "M04",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m04-catalogue",
+    "description": "Synthetic catalogue for Emberline Coffee."
+  },
+  {
+    "id": "M04-CAT-COFFEE_MAKERS",
+    "merchant_id": "M04",
+    "parent_id": "M04-CAT-ROOT",
+    "name": "coffee makers",
+    "slug": "m04-coffee-makers",
+    "description": "Fictional coffee makers products."
+  },
+  {
+    "id": "M05-CAT-ROOT",
+    "merchant_id": "M05",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m05-catalogue",
+    "description": "Synthetic catalogue for LumaDerm Studio."
+  },
+  {
+    "id": "M05-CAT-FACIAL_SKINCARE",
+    "merchant_id": "M05",
+    "parent_id": "M05-CAT-ROOT",
+    "name": "facial skincare",
+    "slug": "m05-facial-skincare",
+    "description": "Fictional facial skincare products."
+  },
+  {
+    "id": "M06-CAT-ROOT",
+    "merchant_id": "M06",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m06-catalogue",
+    "description": "Synthetic catalogue for Aster Deskworks."
+  },
+  {
+    "id": "M06-CAT-DESK_LAMPS",
+    "merchant_id": "M06",
+    "parent_id": "M06-CAT-ROOT",
+    "name": "desk lamps",
+    "slug": "m06-desk-lamps",
+    "description": "Fictional desk lamps products."
+  },
+  {
+    "id": "M07-CAT-ROOT",
+    "merchant_id": "M07",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m07-catalogue",
+    "description": "Synthetic catalogue for Tidecraft Hydration."
+  },
+  {
+    "id": "M07-CAT-WATER_BOTTLES",
+    "merchant_id": "M07",
+    "parent_id": "M07-CAT-ROOT",
+    "name": "water bottles",
+    "slug": "m07-water-bottles",
+    "description": "Fictional water bottles products."
+  },
+  {
+    "id": "M08-CAT-ROOT",
+    "merchant_id": "M08",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m08-catalogue",
+    "description": "Synthetic catalogue for Stillform Movement."
+  },
+  {
+    "id": "M08-CAT-YOGA_MATS",
+    "merchant_id": "M08",
+    "parent_id": "M08-CAT-ROOT",
+    "name": "yoga mats",
+    "slug": "m08-yoga-mats",
+    "description": "Fictional yoga mats products."
+  },
+  {
+    "id": "M09-CAT-ROOT",
+    "merchant_id": "M09",
+    "parent_id": null,
+    "name": "Catalogue",
+    "slug": "m09-catalogue",
+    "description": "Synthetic catalogue for Meridian Time Co.."
+  },
+  {
+    "id": "M09-CAT-WRISTWATCHES",
+    "merchant_id": "M09",
+    "parent_id": "M09-CAT-ROOT",
+    "name": "wristwatches",
+    "slug": "m09-wristwatches",
+    "description": "Fictional wristwatches products."
+  },
+  {
+    "id": "M10-CAT-RUNNING_SHOES",
+    "merchant_id": "M10",
+    "parent_id": null,
+    "name": "running shoes",
+    "slug": "m10-running-shoes",
+    "description": "Fictional running shoes products."
+  },
+  {
+    "id": "M11-CAT-RUNNING_SHOES",
+    "merchant_id": "M11",
+    "parent_id": null,
+    "name": "running shoes",
+    "slug": "m11-running-shoes",
+    "description": "Fictional running shoes products."
+  }
+]

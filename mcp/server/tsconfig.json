@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "references": [{ "path": "../../packages/schemas" }, { "path": "../../packages/database" }, { "path": "../../packages/core" }],
+  "include": ["src"]
+}
